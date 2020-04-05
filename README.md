@@ -28,7 +28,7 @@ Dieses Bild auch als [PDF](images/schaltplan-modul-modifikationen.pdf) und [SVG]
 
 **Polbelegung des Anschlusses**
 
-<img src="images/anschluss.jpg height="400" alt="Polbelegung des Anschlusses" />
+<img src="images/anschluss.jpg" height="400" alt="Polbelegung des Anschlusses" />
 
 ## Teileliste (unvollständig)
 
