@@ -15,11 +15,20 @@ Die folgenden Pläne und Bilder zeigen die notwendigen Modifikationen. Einmal wi
 **Schaltplan mit Modifikationen**
 
 <img src="images/schaltplan-modul-modifikationen.png" alt="Schaltplan mit Modifikationen" />
+
 Dieses Bild auch als [PDF](images/schaltplan-modul-modifikationen.pdf) und [SVG](images/schaltplan-modul-modifikationen.svg).
 
-**Modifikationen an der Platine**
+**Modifikationen an der Platine** (blaue und violette Brücke, entfernte Teile)
 
-<img src="images/modulplatine_closeup.jpg" height="400" /> <img src="images/modulplatine_unten.jpg" height="400" />
+<img src="images/modulplatine_closeup.jpg" alt="Modifikationen an der Platine" height="400" /> <img src="images/modulplatine_unten.jpg" alt="Modifikationen an der Platine" height="400" />
+
+**Gesamte Platine des Fallblattmoduls / Synchronmotor**
+
+<img src="images/modulplatine.jpg" alt="Modulplatine" height="300" /> <img src="images/synchronmotor.jpg" alt="Synchronmotor"  height="300" />
+
+**Polbelegung des Anschlusses**
+
+<img src="images/anschluss.jpg height="400" alt="Polbelegung des Anschlusses" />
 
 ## Teileliste (unvollständig)
 
