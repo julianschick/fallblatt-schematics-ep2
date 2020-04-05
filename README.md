@@ -1,5 +1,19 @@
 # Fallblattanzeiger der S-Bahn-Berlin
 
+<img src="images/steuerplatine.jpg" width="200" align="right" />
+
+Platine zur Ansteuerung von 3 Fallblattmodulen (typischerweise Linie, Fahrtziel und Laufweg) mit einem ESP32-Development-Board. Gedacht für Module der *Epoche 2* (siehe [Wikipedia](https://de.wikipedia.org/wiki/Fallblattanzeige)) und ein Eingriff in die Platine der Module ist erforderlich. Der Synchronmotor wird nicht über die Transistorschaltung auf der Platine des Fallblattmoduls gesteuert. Vielmehr wird die Platine so überbrückt, dass der Microcontroller direkten Zugriff auf die Hall-Sensoren hat und über einen eigenen Triac den Synchronmotor direkt steuert.
+
+Zur Stromversorgung wird die Platine an 230 V Netzspannung angeschlossen. Ein großer Trafo, der nicht auf der Platine verbaut wird, sondern über Schraubklemmen angeschlossen werden kann, spannt auf 48 V AC herunter. Damit werden die Synchronmotoren der Module betrieben. Ein weiterer Trafo, der auf der Platine montiert wird, spannt auf 9 V AC herunter, die gleichgerichtet und mit einem Linearregler auf Logik-Betriebsspannung 3,3 V gebracht werden.
+
+## Modifikationen an der Platine des Fallblattmoduls
+
+Der unveränderte Schaltplan der Platine ist als [KiCad-Schaltplan](images/schaltplan-modul/schaltplan-modul.sch) und [PDF](images/schaltplan-modul.pdf) im Repo abgelegt. Soweit möglich, sind Typenbezeichnung der Bauteile mit angegeben, diese sind allerdings mit Google heute nur schwer zu deuten.
+
+Die folgenden Pläne und Bilder zeigen die notwendigen Modifikationen. Einmal wird Pin 5 des Anschlusssteckers von Pin 10 des Anschlusssteckers getrennt, indem ein Widerstand und eine Diode entfernt werden. Außerdem wird Pin 10 direkt mit dem Flap-Hall-Sensor verbunden, durch setzen einer Brücke auf der Platine, wo schon zwei vorbereitete Pads nebeneinander liegen (violette Brücke). Zuletzt wird der Triac entfernt und überbrückt (blaue Brücke).
+
+<img src="images/schaltplan-modul-modifikationen.jpg" alt="Schaltplan mit Modifikationen" />
+
 ## Teileliste (unvollständig)
 
 * ESP32-Development-Board (es gibt 2 Varianten bei eBay, für diese Platine wird die üblichere mit 15 Pins je Reihe und GND/VCC  nebeneinander, nicht auf gegenüberliegenden Pins benötigt; diese wird oft unter dem Namen _DEVKITV1_ oder _NodeMCU_ verkauft). Das folgende Pinout ist das korrekte:
