@@ -12,7 +12,14 @@ Der unveränderte Schaltplan der Platine ist als [KiCad-Schaltplan](images/schal
 
 Die folgenden Pläne und Bilder zeigen die notwendigen Modifikationen. Einmal wird Pin 5 des Anschlusssteckers von Pin 10 des Anschlusssteckers getrennt, indem ein Widerstand und eine Diode entfernt werden. Außerdem wird Pin 10 direkt mit dem Flap-Hall-Sensor verbunden, durch setzen einer Brücke auf der Platine, wo schon zwei vorbereitete Pads nebeneinander liegen (violette Brücke). Zuletzt wird der Triac entfernt und überbrückt (blaue Brücke).
 
-<img src="images/schaltplan-modul-modifikationen.jpg" alt="Schaltplan mit Modifikationen" />
+**Schaltplan mit Modifikationen**
+
+<img src="images/schaltplan-modul-modifikationen.png" alt="Schaltplan mit Modifikationen" />
+Dieses Bild auch als [PDF](images/schaltplan-modul-modifikationen.pdf) und [SVG](images/schaltplan-modul-modifikationen.svg).
+
+**Modifikationen an der Platine**
+
+<img src="images/modulplatine_closeup.jpg" height="400" /> <img src="images/modulplatine_unten.jpg" height="400" />
 
 ## Teileliste (unvollständig)
 
