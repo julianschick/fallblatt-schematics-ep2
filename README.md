@@ -55,3 +55,5 @@ Dieses Bild auch als [PDF](images/schaltplan-modul-modifikationen.pdf) und [SVG]
 * 3 x Widerstand 330, RM 10mm
 * 2 x Jumpersteckplatz und 2 x Pinheader Female für das ESP32-Board
 * 3 x Anschlüsse für die Fallblattmodule (2 x 5 Pole), RM 2,54mm
+
+![In Bewegung](images/motion.png)
