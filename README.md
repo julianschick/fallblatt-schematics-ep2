@@ -47,8 +47,8 @@ Dieses Bild auch als [PDF](images/schaltplan-modul-modifikationen.pdf) und [SVG]
 * [Brückengleichrichter Rund, Wechselstrompins gegenüber, RM 5mm](https://www.reichelt.de/brueckengleichrichter-100-v-1-5-a-b70c1500rund-p181713.html)
 * 4 x Schraubklemme 2-polig RM 7,5mm
 * [Spannungsregler 3,3V Formfaktor TO-220 _STM LD1117 V33C_](https://www.reichelt.de/ldo-regler-fest-3-3-v-to-220-ld1117-v33c-p200891.html?)
-* 3 x Optotriac (Triac mit Optokoppler) MOC3041M
-* 3 x Leistungstriac BT136-600
+* 3 x Optotriac (Triac mit Optokoppler) MOC3041M, Formfaktor DIP-6
+* 3 x Leistungstriac BT136-600, Formfaktor TO-220
 * Elektrolytkondensator 470u, RM 5mm
 * Elektrolytkondensator 10u, RM 2mm
 * Kondensator 100n, RM 2,5mm
