@@ -1,2 +1,4 @@
 (sym_lib_table
+  (version 7)
+  (lib (name "splitflap-berlin-rescue")(type "KiCad")(uri "${KIPRJMOD}/splitflap-berlin-rescue.kicad_sym")(options "")(descr ""))
 )
